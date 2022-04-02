@@ -31,20 +31,20 @@ def recsum(x):
         return x + recsum(x-1)
 
 if __name__=="__main__":
-    # x = int(input("\nEnter number to find the square root:"))
-    # print(sroot(x))
-    #
-    # print("\nQuadratic equation>")
-    # a=int(input("Enter the a value:"))
-    # b=int(input("Enter the b value:"))
-    # c=int(input("Enter the c value:"))
-    # print(quadratic(a,b,c))
-    #
-    # c = float(input("\nEnter the Celsius (°C) value:"))
-    # print(c,"(°C) in Fahrenheit (°F)", celtofah(c))
+    x = int(input("\nEnter number to find the square root:"))
+    print(sroot(x))
 
-    # x = int(input("\nEnter the number to check whether positive / negative / zero number:"))
-    # print(povandneg(x))
+    print("\nQuadratic equation>")
+    a=int(input("Enter the a value:"))
+    b=int(input("Enter the b value:"))
+    c=int(input("Enter the c value:"))
+    print(quadratic(a,b,c))
+
+    c = float(input("\nEnter the Celsius (°C) value:"))
+    print(c,"(°C) in Fahrenheit (°F)", celtofah(c))
+
+    x = int(input("\nEnter the number to check whether positive / negative / zero number:"))
+    print(povandneg(x))
 
     x = int(input("\nEnter a value to find the sum:"))
     print(recsum(x))
